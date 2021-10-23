@@ -1,0 +1,133 @@
+body {
+  background-color: paleturquoise;
+  font-size: 25px;
+  font-family: "Stick No Bills", sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  position: relative;
+}
+
+#scorebtn {
+  justify-content: flex-end;
+  align-self: center;
+  width: 90%;
+  margin-left: 10px;
+}
+
+#scorebtn button {
+  background-color: rgb(6, 99, 6);
+  border-radius: 12px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+#timer {
+  display: flex;
+  width: 10%;
+  align-items: flex-end;
+  text-align: right;
+  align-self: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  margin: 20px;
+}
+
+#startbtn {
+  background-color: rgb(6, 99, 6);
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#answers {
+  display: flex;
+}
+
+#answers li {
+  align-items: center;
+  height: 60px;
+  line-height: 1.5;
+}
+
+.ansbtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(6, 99, 6);
+  margin: 5px 0;
+  border-radius: 12px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+#done p {
+  margin: 10px;
+}
+
+#initials {
+  height: 25px;
+  border-radius: 12px;
+  border-color: gray;
+}
+
+h5 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+#hs {
+  margin: 20px;
+}
+
+#buttons {
+  margin-left: 40px;
+}
+
+#backbtn {
+  background-color: rgb(6, 99, 6);
+  border-radius: 12px;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+}
+
+#clearbtn {
+  background-color: rgb(6, 99, 6);
+  border-radius: 12px;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  margin-left: 30px;
+}

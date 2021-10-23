@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet"  href="styles.css">
-</head>
-<body>
-<div class="quiz-wrapper">       
-    <div id="questionBox" class="question">
-        Sample Question
-    </div>
-    <div class="options">
-        <ul id="ul">
-            <li id="opt1" onclick="button(this)"></li>
-            <li id="opt2" onclick="button(this)"></li>
-            <li id="opt3" onclick="button(this)"></li>
-            <li id="opt4" onclick="button(this)"></li>
-        </ul>
-    </div>
-    <div class="score">
-        <div class="next">
-            <button id="btnNext" type="button" onclick="next()">
-              Next
-            </button>
-        </div>
-        <div class="score-card">
-            SCORE: <span id="scoreCard">0</span>
-        </div>
-    </div>
-</div>
-</section>
-</div>
-<div id = "scores"> <!---->
-    <h5>HighScores</h5>
-        <ol id=hs>
-            <li id="hs1"></li>
-            <li id="hs2"></li>
-            <li id="hs3"></li>
-            <li id="hs4"></li>
-        </ol>
-    <div id="buttons">
-        <button id="backbtn">Go Back</button> 
-        <button id ="clearbtn">Clear High Score</button></div>
-    </div>
-</main>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Coding Quiz</title>
+  </head>
+  <body>
+    <nav>
+      <div id="scorebtn"><button>View HighScores</button></div>
 
-<script src="script.js"></script>
-</body>
+      <div id="timer">Time Left: <span id="countdown"></span></div>
+    </nav>
+    <main>
+      <div id="start-quiz">
+        <h1>QUIZ APP!!</h1>
+        <section>
+          <p>Try To Answer All The Questions!</p>
+        </section>
+        <div><button id="startbtn">Start Quiz</button></div>
+      </div>
+      <div id="questions">
+        <h2>Question</h2>
+        <section>
+          <ol id="answers">
+            <li><button class="ansbtn" id="a1"></button></li>
+
+            <li><button class="ansbtn" id="a2"></button></li>
+
+            <li><button class="ansbtn" id="a3"></button></li>
+
+            <li><button class="ansbtn" id="a4"></button></li>
+          </ol>
+        </section>
+        <div class="results"></div>
+      </div>
+      <div id="done">
+        <h3>All Done!</h3>
+        <section>
+          <p>Your Score Is: <span id="score"></span></p>
+          <p>
+            Enter Initials <input type="text" name="initials" id="initials" />
+            <button id="submitbtn">Submit</button>
+          </p>
+        </section>
+      </div>
+      <div id="scores">
+        <h5>HighScores</h5>
+        <ol id="hs">
+          <li id="hs1"></li>
+          <li id="hs2"></li>
+          <li id="hs3"></li>
+          <li id="hs4"></li>
+        </ol>
+        <div id="buttons">
+          <button id="backbtn">Go Back</button>
+          <button id="clearbtn">Clear High Score</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="./Assets/script.js"></script>
+  </body>
 </html>
