@@ -1,4 +1,5 @@
-![code-quiz](https://user-images.githubusercontent.com/86696292/136062840-b8082cfc-94bc-4e18-b8de-e468ddae89fa.PNG)
+![Code-quizapp](https://user-images.githubusercontent.com/86696292/138544459-6c7261c5-d73a-4ef7-ac1a-889f54508da5.PNG)
+
 # Code-Quiz
 
 
