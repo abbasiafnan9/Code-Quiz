@@ -1,10 +1,6 @@
-![Code-quizapp](https://user-images.githubusercontent.com/86696292/138544459-6c7261c5-d73a-4ef7-ac1a-889f54508da5.PNG)
-
 # Code-Quiz
 
-
-
-#Acceptance Criteria
+## Acceptance Criteria
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -16,6 +12,8 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
+
+![Code-quizapp](https://user-images.githubusercontent.com/86696292/138544459-6c7261c5-d73a-4ef7-ac1a-889f54508da5.PNG)
 
 
 https://abbasiafnan9.github.io/Code-Quiz/
